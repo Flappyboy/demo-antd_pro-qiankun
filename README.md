@@ -1,3 +1,4 @@
+# qiankun + antd pro(父子应用都用antd pro) menu 等样式的适配处理
 - 背景：
   - 使用 qiankun 做微前端框架，父子应用都是基于antd pro v5框架
   - 父应用 layout 为 top，子应用 layout 为 side 
@@ -25,3 +26,6 @@
         min-height: 100px;
       }
       ```
+- 结果：
+![1.png](https://upload-images.jianshu.io/upload_images/5527118-8b64eb43aa518557.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+- 源码：https://github.com/Flappyboy/demo-antd_pro-qiankun
